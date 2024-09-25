@@ -15,10 +15,10 @@ function pertenceFibonacci($numero) {
     return false;
 }
 
-// Entrada do usuário
+
 $numero = intval(readline("Informe um número: "));
 
-// Verifica se o número pertence à sequência de Fibonacci
+
 if (pertenceFibonacci($numero)) {
     echo "$numero pertence à sequência de Fibonacci.\n";
 } else {
